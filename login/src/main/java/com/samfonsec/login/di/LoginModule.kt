@@ -1,10 +1,17 @@
-package com.samfonsec.login.data
+package com.samfonsec.login.di
 
+import com.samfonsec.login.data.LoginDataStore
+import com.samfonsec.login.data.LoginRepository
+import com.samfonsec.login.viewModels.LoginViewModel
+import org.koin.android.viewmodel.dsl.viewModel
+import org.koin.core.context.loadKoinModules
 import org.koin.dsl.module
 
-class LoginModule {
+val loginModule = module {
+    single<LoginRepository> { LoginDataStore() }
+    viewModel { LoginViewModel(get()) }
+}
 
-    val loginModule = module {
-        single<LoginRepository> { LoginDataStore() }
-    }
+object LoginInitializer {
+    fun init() = loadKoinModules(loginModule)
 }
