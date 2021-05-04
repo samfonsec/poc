@@ -37,8 +37,6 @@ android {
 }
 
 dependencies {
-    implementation project(':login')
-
     implementation kotlinStdLib.values()
     implementation androidx.values()
     implementation coroutines.values()
