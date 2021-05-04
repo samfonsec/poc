@@ -4,12 +4,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ProgressBar
 import androidx.core.view.isVisible
+import androidx.databinding.ViewDataBinding
 import com.google.android.material.snackbar.Snackbar
 import com.samfonsec.login.R
 import com.samfonsec.login.di.LoginInitializer
 import com.samfonsec.login.viewModels.LoginViewModel
 
-class LoginActivity : BaseActivity<Int, LoginViewModel>() {
+class LoginActivity : BaseActivity<ViewDataBinding, LoginViewModel>() {
 
     private val button by lazy { findViewById<Button>(R.id.btLogin) }
     private val loading by lazy { findViewById<ProgressBar>(R.id.pbLoading) }

@@ -1,25 +1,16 @@
 package com.samfonsec.poczinha
 
-import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.samfonsec.login.activities.LoginActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ac_splash)
-        startActivity(Intent(this, LoginActivity::class.java))
-        finish()
+        navigateToLogin()
+    }
+
+    private fun navigateToLogin() {
+
     }
 }
-
-
-/*
-
-app
-login
-checkout
-security
-
-*/
