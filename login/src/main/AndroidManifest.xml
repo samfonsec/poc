@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.samfonsec.login">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="true"
+        dist:title="login">
+        <dist:fusing dist:include="true"/>
+    </dist:module>
 
     <application>
         <activity

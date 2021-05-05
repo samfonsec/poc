@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.library'
+    id 'com.android.dynamic-feature'
     id 'kotlin-android'
     id 'kotlin-kapt'
 }
@@ -42,6 +42,7 @@ dependencies {
     implementation gson.values()
     implementation koin.values()
     implementation navigation.values()
+    implementation google.values()
 
     testImplementation tests.junit
     androidTestImplementation tests.test

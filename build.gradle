@@ -39,7 +39,8 @@ ext {
             lifeCycle        : "2.2.0",
             testsVersion     : "1.1.2",
             espressoVersion  : "3.3.0",
-            junitVersion     : "4.12"
+            junitVersion     : "4.12",
+            playCoreVersion  : "1.6.4"
     ]
 
     kotlinStdLib = [
@@ -70,7 +71,7 @@ ext {
     navigation = [
             lib           : "androidx.navigation:navigation-fragment-ktx:${versions.navigationVersion}",
             ui            : "androidx.navigation:navigation-ui-ktx:${versions.navigationVersion}",
-            dynamicFeature: "androidx.navigation:navigation-dynamic-features-fragment:${versions.navigationVersion}",
+            dynamicFeature: "androidx.navigation:navigation-dynamic-features-fragment:${versions.navigationVersion}"
     ]
 
     retrofit = [
@@ -86,5 +87,9 @@ ext {
             junit       : "junit:junit:${versions.junitVersion}",
             test        : "androidx.test.ext:junit:${versions.testsVersion}",
             testEspresso: "androidx.test.espresso:espresso-core:${versions.espressoVersion}"
+    ]
+
+    google = [
+            playCore : "com.google.android.play:core:${versions.playCoreVersion}"
     ]
 }

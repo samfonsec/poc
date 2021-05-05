@@ -1,9 +1,11 @@
 package com.samfonsec.poczinha
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ac_splash)
@@ -11,6 +13,12 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun navigateToLogin() {
+//        val intent = Intent().setClassName(BuildConfig.APPLICATION_ID, LOGIN_MODULE)
+        val intent = Intent(this, Class.forName(LOGIN_MODULE))
+        startActivity(intent)
 
     }
 }
+
+private const val PACKAGE_NAME = "com.samfonsec"
+private const val LOGIN_MODULE = "$PACKAGE_NAME.login.activities.LoginActivity"

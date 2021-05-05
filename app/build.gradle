@@ -35,6 +35,8 @@ android {
     dataBinding {
         enabled = true
     }
+
+    dynamicFeatures = [':login']
 }
 
 dependencies {
