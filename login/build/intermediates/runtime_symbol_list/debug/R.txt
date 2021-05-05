@@ -1,0 +1,5 @@
+int id btLogin 0x7e010000
+int id clParent 0x7e010001
+int id pbLoading 0x7e010002
+int layout act_login 0x7e020000
+int string bt_login 0x7e030000

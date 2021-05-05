@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    featureSplit="login"
+    package="com.samfonsec.poczinha"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:targetSdkVersion="30" />
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="true"
+        dist:title="login" >
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:testOnly="true" >
+        <activity
+            android:name="com.samfonsec.login.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:splitName="login" />
+    </application>
+
+</manifest>

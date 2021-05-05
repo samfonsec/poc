@@ -1,0 +1,2 @@
+com/samfonsec/login/BuildConfig.java
+ com.samfonsec.login.BuildConfig
