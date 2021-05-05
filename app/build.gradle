@@ -40,6 +40,9 @@ android {
 }
 
 dependencies {
+
+    implementation project(':navigator')
+
     implementation kotlinStdLib.values()
     implementation androidx.values()
     implementation coroutines.values()

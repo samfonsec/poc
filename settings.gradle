@@ -1,3 +1,4 @@
 include ':login'
 include ':app'
 rootProject.name = "Poczinha"
+include ':navigator'
