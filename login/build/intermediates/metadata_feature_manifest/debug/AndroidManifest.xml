@@ -17,7 +17,8 @@
 
     <application
         android:debuggable="true"
-        android:extractNativeLibs="false" >
+        android:extractNativeLibs="false"
+        android:testOnly="true" >
         <activity
             android:name="com.samfonsec.login.activities.LoginActivity"
             android:screenOrientation="portrait"
