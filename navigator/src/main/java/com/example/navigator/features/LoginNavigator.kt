@@ -1,9 +1,14 @@
 package com.example.navigator.features
 
-import com.example.navigator.core.Navigator
+import android.content.Context
+import android.content.Intent
+import com.example.navigator.core.ClassRegistry
+import com.example.navigator.core.NavigatorProvider
+import com.gaelmarhic.quadrant.QuadrantConstants
 
-object LoginNavigator : Navigator() {
+object LoginNavigator : NavigatorProvider {
 
-    private const val LOGIN_MODULE = "com.samfonsec.login.activities.LoginActivity"
-    fun login(packageName: String) = loadIntent(packageName, LOGIN_MODULE)
+    override fun navigate(context: Context): Intent {
+        return ClassRegistry.getIntent(context, QuadrantConstants.LOGIN_ACTIVITY)
+    }
 }

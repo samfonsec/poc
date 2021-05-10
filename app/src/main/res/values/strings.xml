@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Poczinha</string>
+    <string name="home_module">Home</string>
+    <string name="login_module">Login</string>
 </resources>

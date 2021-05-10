@@ -12,19 +12,22 @@
 
     <dist:module
         dist:instant="false"
-        dist:onDemand="true"
-        dist:title="login" >
+        dist:onDemand="false"
+        dist:title="@string/login_module" >
         <dist:fusing dist:include="true" />
     </dist:module>
 
     <application
         android:debuggable="true"
-        android:extractNativeLibs="false"
-        android:testOnly="true" >
+        android:extractNativeLibs="false" >
         <activity
             android:name="com.samfonsec.login.activities.LoginActivity"
             android:screenOrientation="portrait"
-            android:splitName="login" />
+            android:splitName="login" >
+            <meta-data
+                android:name="addressable"
+                android:value="true" />
+        </activity>
     </application>
 
 </manifest>

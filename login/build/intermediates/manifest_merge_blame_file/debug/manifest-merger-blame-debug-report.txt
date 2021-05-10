@@ -16,27 +16,33 @@
 13-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:6:5-11:19
 14        dist:instant="false"
 14-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:7:9-29
-15        dist:onDemand="true"
-15-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:8:9-29
-16        dist:title="login" >
-16-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:9:9-27
+15        dist:onDemand="false"
+15-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:8:9-30
+16        dist:title="@string/login_module" >
+16-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:9:9-42
 17        <dist:fusing dist:include="true" />
 17-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:10:9-43
 17-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:10:22-41
 18    </dist:module>
 19
 20    <application
-20-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:13:5-17:19
+20-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:13:5-21:19
 21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:testOnly="true" >
-24        <activity
-24-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-16:52
-25            android:name="com.samfonsec.login.activities.LoginActivity"
-25-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:15:13-53
-26            android:screenOrientation="portrait"
-26-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:16:13-49
-27            android:splitName="login" />
-28    </application>
-29
-30</manifest>
+22        android:extractNativeLibs="false" >
+23        <activity
+23-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-20:20
+24            android:name="com.samfonsec.login.activities.LoginActivity"
+24-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:15:13-53
+25            android:screenOrientation="portrait"
+25-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:16:13-49
+26            android:splitName="login" >
+27            <meta-data
+27-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:17:13-19:40
+28                android:name="addressable"
+28-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:18:17-43
+29                android:value="true" />
+29-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:19:17-37
+30        </activity>
+31    </application>
+32
+33</manifest>

@@ -1,6 +1,8 @@
 package com.example.navigator.core
 
-open class Navigator {
+import android.content.Context
+import android.content.Intent
 
-    fun loadIntent(packageName: String, module: String) = ClassRegistry.loadIntent(packageName, module)
+interface NavigatorProvider {
+    fun navigate(context: Context): Intent
 }

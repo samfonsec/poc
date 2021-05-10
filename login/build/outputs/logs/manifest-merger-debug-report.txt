@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
-INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
+ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
-		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
 	xmlns:dist
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
-		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-19:12
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:2:11-69
@@ -28,21 +28,27 @@ ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:6:5-11:
 	dist:instant
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:7:9-29
 	dist:title
-		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:9:9-27
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:9:9-42
 	dist:onDemand
-		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:8:9-29
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:8:9-30
 dist:fusing
 ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:10:9-43
 	dist:include
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:10:22-41
 application
-ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:13:5-17:19
+ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:13:5-21:19
 activity#com.samfonsec.login.activities.LoginActivity
-ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-16:52
+ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-20:20
 	android:screenOrientation
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:16:13-49
 	android:name
 		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:15:13-53
+meta-data#addressable
+ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:17:13-19:40
+	android:value
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:19:17-37
+	android:name
+		ADDED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:18:17-43
 uses-sdk
 INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml

@@ -5,15 +5,19 @@
 
     <dist:module
         dist:instant="false"
-        dist:onDemand="true"
-        dist:title="login">
+        dist:onDemand="false"
+        dist:title="@string/login_module">
         <dist:fusing dist:include="true"/>
     </dist:module>
 
     <application>
         <activity
             android:name=".activities.LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="addressable"
+                android:value="true" />
+        </activity>
     </application>
 
 </manifest>

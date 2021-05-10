@@ -5,6 +5,7 @@ import android.widget.Button
 import android.widget.ProgressBar
 import androidx.core.view.isVisible
 import androidx.databinding.ViewDataBinding
+import com.example.navigator.features.HomeNavigator
 import com.google.android.material.snackbar.Snackbar
 import com.samfonsec.login.R
 import com.samfonsec.login.di.LoginInitializer
@@ -23,12 +24,17 @@ class LoginActivity : BaseActivity<ViewDataBinding, LoginViewModel>() {
             hideLoading()
             val message = if (it) "Success!" else "Error!"
             Snackbar.make(findViewById(R.id.clParent), message, Snackbar.LENGTH_SHORT).show()
+            navigateToHome()
         })
 
         button.setOnClickListener {
             showLoading()
             viewModel.login("user", "1234")
         }
+    }
+
+    private fun navigateToHome() {
+        startActivity(HomeNavigator.navigate(this))
     }
 
     private fun showLoading() {

@@ -36,12 +36,12 @@ android {
         enabled = true
     }
 
-    dynamicFeatures = [':login']
+    dynamicFeatures = [':login', ':home']
 }
 
 dependencies {
 
-    implementation project(':navigator')
+    api project(':navigator')
 
     implementation kotlinStdLib.values()
     implementation androidx.values()
