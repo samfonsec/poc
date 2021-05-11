@@ -28,22 +28,21 @@
 20    <application
 20-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:13:5-21:19
 21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:testOnly="true" >
-24        <activity
-24-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-20:20
-25            android:name="com.samfonsec.login.activities.LoginActivity"
-25-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:15:13-53
-26            android:screenOrientation="portrait"
-26-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:16:13-49
-27            android:splitName="login" >
-28            <meta-data
-28-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:17:13-19:40
-29                android:name="addressable"
-29-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:18:17-43
-30                android:value="true" />
-30-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:19:17-37
-31        </activity>
-32    </application>
-33
-34</manifest>
+22        android:extractNativeLibs="false" >
+23        <activity
+23-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:14:9-20:20
+24            android:name="com.samfonsec.login.activities.LoginActivity"
+24-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:15:13-53
+25            android:screenOrientation="portrait"
+25-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:16:13-49
+26            android:splitName="login" >
+27            <meta-data
+27-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:17:13-19:40
+28                android:name="addressable"
+28-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:18:17-43
+29                android:value="true" />
+29-->/Users/warlen/Projects/poc/login/src/main/AndroidManifest.xml:19:17-37
+30        </activity>
+31    </application>
+32
+33</manifest>
